@@ -1,0 +1,28 @@
+{
+  "name": "spotqueue-server",
+  "version": "1.0.0",
+  "description": "Server for spotqueue app",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "cron": "^1.2.1",
+    "express": "^4.15.3",
+    "mongoose": "^4.11.5",
+    "spotify-web-api-node": "^2.4.0",
+    "ws": "^3.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dyang108/spotqueue-server.git"
+  },
+  "author": "dyang108",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dyang108/spotqueue-server/issues"
+  },
+  "homepage": "https://github.com/dyang108/spotqueue-server#readme"
+}
